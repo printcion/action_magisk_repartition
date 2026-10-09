@@ -2,7 +2,7 @@
 export KEEPVERITY=false
 export KEEPFORCEENCRYPT=false
 export RECOVERYMODE=true
-export PREINITDEVICE=cache
+export RECOVERYMODE=false
 
 #########
 # Unpack
