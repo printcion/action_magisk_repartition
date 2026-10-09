@@ -45,6 +45,7 @@ jobs:
         sudo mount -t ext4 -o rw ramdisk.img ramdisk
         cd ramdisk
         sudo cpio -idv < ../ramdisk.cpio
+        sudo rm -f sbin/recovery
         cd ..
         sudo umount ramdisk
 
