@@ -1,7 +1,6 @@
 # Flags
 export KEEPVERITY=false
 export KEEPFORCEENCRYPT=false
-export RECOVERYMODE=true
 export RECOVERYMODE=false
 
 #########
