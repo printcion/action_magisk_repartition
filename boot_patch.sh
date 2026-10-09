@@ -2,7 +2,7 @@
 export KEEPVERITY=false
 export KEEPFORCEENCRYPT=false
 export RECOVERYMODE=true
-export PREINITDEVICE=cache
+export RECOVERYMODE=false
 
 #########
 # Unpack
@@ -100,7 +100,8 @@ echo "PREINITDEVICE=$PREINITDEVICE" >> config
 "add 0750 $INIT zzz/lib/$cpu_abi/libmagiskinit.so" \
 "mkdir 0750 overlay.d" \
 "mkdir 0750 overlay.d/sbin" \
-"add 0644 overlay.d/sbin/magisk.xz magisk.xz" \
+"add 0644 overlay.d/sbin/magisk64.xz magisk.xz" \
+"add 0644 overlay.d/sbin/magisk32.xz magisk.xz" \
 "add 0644 overlay.d/sbin/stub.xz stub.xz" \
 "add 0644 overlay.d/sbin/init-ld.xz init-ld.xz" \
 "patch" \
